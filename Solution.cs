@@ -40,8 +40,7 @@ public class Solution : MonoBehaviour
             }
             else if (ts[i] < 0.0){
                 transformValue = 0.0 - ts[i];
-                if (transformValue < min)
-                {
+                if (transformValue < min){
                     min = transformValue;
                     indexMin = i;
                 }
