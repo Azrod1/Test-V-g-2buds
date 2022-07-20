@@ -30,7 +30,7 @@ public class Solution : MonoBehaviour
 
         // Première valeur du tableau
         min = ts[0] >= 0 ? ts[0] : 0 - ts[0];
-        indexMin = 0;
+        indexMin = 0; 
 
         // Boucle pour trouver la valeur la plus proche de 0 
         for (int i = 0; i < ts.Length; i++){
