@@ -27,14 +27,9 @@ public class Solution : MonoBehaviour
         if (ts.Length == 0){
             return 0.0;
         }
-               
+
         // Première valeur du tableau
-        if (ts[0] >= 0){
-            min = ts[0];
-        }
-        else{
-            min = 0 - ts[0];
-        }
+        min = ts[0] >= 0 ? ts[0] : 0 - ts[0];
         indexMin = 0;
 
         // Boucle pour trouver la valeur la plus proche de 0 
